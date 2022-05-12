@@ -63,6 +63,20 @@ section{
 	
 	border: 1px solid black;
 }
+/*2section*/
+.strategy-col{
+	margin-top: 1rem;
+	width: 100%;
+	border: 1px solid black;
+		
+}
+.color-section2{
+	background-color: #9792e4;
+}
+.strategy{
+	flex-wrap: wrap;
+}
+
 /*smart********************************************/
 
 @media screen and (min-width: 768px) {
@@ -86,5 +100,13 @@ section{
 	}
 }
 
+@media screen and (min-width: 992px) {
+	.strategy{
+		flex-wrap: nowrap;
+	}
+	.strategy-col{
+		margin-left: 1rem;
+	}
+}
 
 /*tablet e pc*******************************************/
