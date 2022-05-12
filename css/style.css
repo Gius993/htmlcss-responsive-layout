@@ -4,3 +4,40 @@
  box-sizing: border-box;
  font-family: 'Roboto', sans-serif;
 }
+/*fix*/
+.flex-fix{
+	display: flex;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+/*mobile fix*/
+.mobile-padding{
+	padding: 0 2rem;
+}
+/*header*/
+header{
+	background-color: #0084fd;
+	height: 80px;
+	width: 100%;
+}
+/*nav*/
+.container-nav{
+	justify-content: space-between;
+}
+
+
+.logo{
+	width: 100px;
+	background-color: blueviolet;
+	
+}
+
+.pulsanti-nav{
+	width: 50px;
+	background-color: bisque;
+}
+
+
+/*header smartphone*/
