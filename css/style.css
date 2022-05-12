@@ -59,6 +59,8 @@ section{
 /*main*/
 .intro-col{
 	/*test*/
+	margin-top: 1rem;
+	
 	border: 1px solid black;
 }
 /*smart********************************************/
@@ -75,7 +77,12 @@ section{
 		width: 40%;
 	}
 	.spazio-generico{
-		width: calc(100% / 3);
+		width: calc(100% / 3 - 1rem);
+	}
+
+	.intro-col{
+		margin-left: 1rem;
+		
 	}
 }
 
