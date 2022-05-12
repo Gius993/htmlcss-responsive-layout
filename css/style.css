@@ -14,7 +14,8 @@
 }
 /*mobile fix*/
 .mobile-padding{
-	padding: 0 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 /*header*/
 header{
@@ -48,4 +49,16 @@ header{
 }
 
 /******************************************************/
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 /*header pc*/
+
+
+/*main*/
+.intro-col{
+	/*test*/
+	border: 1px solid black;
+}
+/*smart*/
