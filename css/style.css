@@ -61,4 +61,23 @@ section{
 	/*test*/
 	border: 1px solid black;
 }
-/*smart*/
+/*smart********************************************/
+
+@media screen and (min-width: 768px) {
+
+    .contenitore-col{
+		display: flex;
+	}
+	.spazio-a{
+		width: 60%;
+	}
+	.spazio-b{
+		width: 40%;
+	}
+	.spazio-generico{
+		width: calc(100% / 3);
+	}
+}
+
+
+/*tablet e pc*******************************************/
