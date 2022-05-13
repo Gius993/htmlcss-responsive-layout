@@ -127,15 +127,45 @@ section{
 .testo-col{
 	text-align: center;
 }
-
+.spazio-generico{
+	padding: 1rem;	
+}
+.spazio-b{
+	padding: 1rem;	
+}
 
 /*2section*/
+
 .strategy-col{
 	margin-top: 1rem;
 	width: 100%;
-	border: 1px solid black;
+	
 		
 }
+.st-a{
+	color: white;
+	width: 50%;
+	text-align: center;
+	padding: 1rem;
+	
+}
+.st-b{
+	width: 50%;
+	text-align: center;
+	padding: 1rem;
+}
+.st-b img{
+	width: 50%;
+}
+.st-a img{
+ width: 50%;
+ margin-bottom: 1rem;
+
+}
+.st-a h3{
+	margin-bottom: 1rem;
+}
+
 .color-section2{
 	background-color: #9792e4;
 }
@@ -172,12 +202,7 @@ section{
 	object-fit: cover;
 	
 }
-.spazio-generico{
-	padding: 1rem;	
-}
-.spazio-b{
-	padding: 1rem;	
-}
+
 
 
 /*smart********************************************/
