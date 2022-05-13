@@ -16,6 +16,10 @@
 	padding-left: 25%;
 	padding-right: 25%;
 }
+ul{
+	list-style-type: none;
+}
+
 /*mobile fix*/
 .mobile-padding{
 	padding-left: 1rem;
@@ -81,16 +85,17 @@ section{
 	flex-wrap: wrap;
 }
 .img-txt{
-	margin-top: 50px;
+	
 	padding: 1rem;
-	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
+	flex-wrap: wrap;
+	width: calc(100% - 2rem);
 }
 .img-txt-background{
 	background-color: #9792e4;
-	border-radius: 2%;
+	border-radius: 2rem;
+	margin-top: 2rem;
 }
 .solo-txt p{
 	text-align: center;
@@ -133,10 +138,14 @@ section{
 		
 	}
 	/*testimonial*/
-	.img-txt{
-		display: flex;
-		justify-content: center;
-		flex-wrap: nowrap;
+
+	
+	.foto-testimonial{
+		width: 50%;
+		height: auto;
+	}
+	.solo-txt{
+		width: 50%;
 	}
 }
 
@@ -150,3 +159,61 @@ section{
 }
 
 /*tablet e pc*******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PULSANTI E GRAFICHE*****************************************/
+.bottone-blu{
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #47adf1;
+	background-color: #47adf1;
+	padding: 5px;
+	color: white;
+}
+
+.bottone-bianco{
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	padding: 5px;
+	color: rgb(0, 0, 0);
+}
+
+.bottone-viola{
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #9792e4;;
+	background-color: #9792e4;                                            ;
+	padding: 5px;
+	color: white;
+}
