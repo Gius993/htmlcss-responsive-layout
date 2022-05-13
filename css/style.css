@@ -19,6 +19,12 @@
 ul{
 	list-style-type: none;
 }
+a{
+	text-decoration: none;
+}
+header a{
+	color: white;
+}
 
 /*mobile fix*/
 .mobile-padding{
@@ -50,6 +56,14 @@ header{
 	.menu-list{
 		
 		display: flex;
+		margin-right: 1rem;
+		align-items: center;
+		
+	}
+	.menu-list ul li{
+		margin-right: 1rem;
+		margin-left: 1rem;
+		
 	}
 	.pulsanti-nav{
 		display:none;
@@ -199,7 +213,7 @@ section{
 .bottone-bianco{
 	display: inline-block;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 25px;
 	border-width: 1px;
 	border-color: #ffffff;
 	background-color: #ffffff;
