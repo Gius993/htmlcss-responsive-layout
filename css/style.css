@@ -429,14 +429,17 @@ section{
 
 /*PULSANTI E GRAFICHE*****************************************/
 .bottone-blu{
-	display: inline-block;
+	display: flex;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 45px;
 	border-width: 1px;
-	border-color: #47adf1;
-	background-color: #47adf1;
-	padding: 5px;
+	border-color: #0381fc;
+	background-color: #0381fc;
+	padding: 0 5px;
 	color: white;
+	width: 120px;
+	justify-content: center;
+	
 }
 
 .bottone-bianco{
