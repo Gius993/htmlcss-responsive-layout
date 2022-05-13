@@ -306,6 +306,15 @@ section{
 	color: gold;
 	font-size: 35px;
 }
+.footer2{
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+.footer2 a{
+	color: #0084fd;
+
+}
 /*smart********************************************/
 
 @media screen and (min-width: 768px) {
