@@ -103,7 +103,12 @@ section{
 }
 .testo-intro-col{
 	margin: 1rem;
+	text-align: center;
 }
+.testo-intro-col i{
+	margin-right: 1rem;
+}
+
 .intro-col h3{
 	color: #47adf1;
 	margin-bottom: 1rem;
