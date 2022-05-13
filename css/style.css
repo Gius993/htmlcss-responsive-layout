@@ -289,6 +289,23 @@ section{
 .test-sotto-immagine .bottone-viola{
 	margin-top: 1rem;
 }
+.test-sotto-immagine{
+	color: #9792e4;
+}
+/*footer***********************************/
+.footer1{
+	text-align: center;
+	background-color: #9792e4;
+	color: white;
+	padding: 1rem;
+}
+.footer1 h3, h2, p, .copy, a{
+	margin-top: 1rem;
+}
+.footer1 h2{
+	color: gold;
+	font-size: 35px;
+}
 /*smart********************************************/
 
 @media screen and (min-width: 768px) {
