@@ -246,8 +246,9 @@ section{
 .data{
 	width: 100%;
 	margin: 1rem;
-	padding: 2rem;
+	padding: 20px;
 }
+
 .data h3 {
 	color: #9792e4;
 	font-size: 25px;
@@ -261,6 +262,7 @@ section{
 .data p{
 	text-align: start;
 	margin-top: 1rem;
+	color: #737373;
 }
 /*sezione5*/
 .about{
@@ -398,6 +400,10 @@ section{
 	}
 	.testo-about{
 		margin-right: 3rem;
+	}
+	/*aggiunte sez2*************************/
+	.solo-txt p{
+		margin-left: 1rem;
 	}
 }
 
