@@ -215,9 +215,11 @@ section{
 	color: #9792e4;
 	margin-bottom: 1rem;
 	font-size: large;
+	text-align: center;
 }
 .text p{
-	font-style: 10px;
+	font-weight: bold;
+	text-align: center;
 }
 .solo-txt{
 	margin-top: 1rem;
@@ -307,7 +309,7 @@ section{
 	color: white;
 	padding: 1rem;
 }
-.footer1 h3, h2, p, .copy, a{
+.footer1 h3, h2, p, .copy a{
 	margin-top: 1rem;
 }
 .footer1 h2{
@@ -393,6 +395,9 @@ section{
 	}
 	.st-a, .st-b{
 		width: 50%;
+	}
+	.st-a img{
+		margin-bottom: 60px;
 	}
 	/*data*/
 	.data{
