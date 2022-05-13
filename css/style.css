@@ -3,6 +3,7 @@
  padding: 0px;
  box-sizing: border-box;
  font-family: 'Roboto', sans-serif;
+ font-size: 1rem;
 }
 /*fix*/
 .flex-fix{
@@ -25,6 +26,7 @@ a{
 header a{
 	color: white;
 }
+
 
 /*mobile fix*/
 .mobile-padding{
@@ -68,6 +70,7 @@ header{
 	.pulsanti-nav{
 		display:none;
 	}
+
 }
 
 /******************************************************/
@@ -82,9 +85,50 @@ section{
 .intro-col{
 	/*test*/
 	margin-top: 1rem;
-	
-	border: 1px solid black;
+	background-color: #b5ddff;
+	border-radius: 10px;	
+
 }
+.spazio-a{
+	display:flex ;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.testo-intro-col{
+	margin: 1rem;
+}
+.intro-col h3{
+	color: #47adf1;
+	margin-bottom: 1rem;
+}
+.intro-col p{
+	margin-bottom: 1rem;
+	font-size: 0.8rem;
+}
+.img-intro-col{
+	width: 60%;
+	margin: 1rem;
+}
+.img-intro-col img{
+	width: 100%;
+}
+
+.icon-col{
+	color: #0084fd;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.icon-col i{
+	font-size: 50px;
+	
+}
+.testo-col{
+	text-align: center;
+}
+
+
 /*2section*/
 .strategy-col{
 	margin-top: 1rem;
@@ -128,11 +172,15 @@ section{
 	object-fit: cover;
 	
 }
+.spazio-generico{
+	padding: 1rem;
+}
 
 
 /*smart********************************************/
 
 @media screen and (min-width: 768px) {
+
 
     .contenitore-col{
 		display: flex;
@@ -142,6 +190,8 @@ section{
 	}
 	.spazio-b{
 		width: 40%;
+		text-align: center;
+		padding: 1rem;
 	}
 	.spazio-generico{
 		width: calc(100% / 3 - 1rem);
@@ -164,6 +214,19 @@ section{
 }
 
 @media screen and (min-width: 992px) {
+	/*section1***/
+	.spazio-a{
+		flex-wrap: nowrap;
+	}
+	.spazio-b{
+		padding: 2rem;
+		text-align: center;
+	}
+	.img-intro-col{
+		width: 90%;
+	}
+
+	/*******/
 	.strategy{
 		flex-wrap: nowrap;
 	}
