@@ -144,25 +144,27 @@ section{
 }
 .st-a{
 	color: white;
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	padding: 1rem;
 	
 }
 .st-b{
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	padding: 1rem;
 }
 .st-b img{
 	width: 50%;
+	margin-bottom: 1rem;
+
 }
 .st-a img{
  width: 50%;
  margin-bottom: 1rem;
 
 }
-.st-a h3{
+.st-a, .st-b h3{
 	margin-bottom: 1rem;
 }
 
@@ -202,7 +204,19 @@ section{
 	object-fit: cover;
 	
 }
-
+/*section3*/
+.text h2{
+	color: #9792e4;
+	margin-bottom: 1rem;
+	font-size: large;
+}
+.text p{
+	font-style: 10px;
+}
+.solo-txt{
+	margin-top: 1rem;
+	color: white;
+}
 
 
 /*smart********************************************/
@@ -260,6 +274,9 @@ section{
 	}
 	.strategy-col{
 		margin-left: 1rem;
+	}
+	.st-a, .st-b{
+		width: 50%;
 	}
 }
 
